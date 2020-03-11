@@ -14,7 +14,7 @@ public class GameCamera extends InputAdapter {
     private Camera ourCamera;
     private Vector3 position;
 
-    public GameCamera(Camera yourCamera){
+    public GameCamera(Camera yourCamera) {
         this.ourCamera = yourCamera;
         position = ourCamera.position;
     }

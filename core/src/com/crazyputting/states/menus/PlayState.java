@@ -3,9 +3,10 @@ package com.crazyputting.states.menus;
 import com.crazyputting.managers.GameStateManager;
 
 public class PlayState extends GameState {
-    public PlayState(GameStateManager gsm){
+    public PlayState(GameStateManager gsm) {
         super(gsm);
     }
+
     @Override
     public void init() {
 

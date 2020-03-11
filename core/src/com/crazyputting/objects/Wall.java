@@ -4,7 +4,7 @@ public class Wall {
 
     private final double thickness = 0.4f;
 
-    public double getThickness(){
+    public double getThickness() {
         return thickness;
     }
 }

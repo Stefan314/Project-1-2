@@ -3,9 +3,10 @@ package com.crazyputting.states.menus;
 import com.crazyputting.managers.GameStateManager;
 
 public class SettingsMenu extends GameState {
-    public SettingsMenu(GameStateManager gsm){
+    public SettingsMenu(GameStateManager gsm) {
         super(gsm);
     }
+
     @Override
     public void init() {
 
