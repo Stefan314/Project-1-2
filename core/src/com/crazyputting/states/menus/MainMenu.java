@@ -14,6 +14,7 @@ import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.ScreenViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import com.crazyputting.CrazyPutting;
+import com.crazyputting.managers.GameKeys;
 import com.crazyputting.managers.GameStateManager;
 
 public class MainMenu extends GameState {
@@ -27,6 +28,7 @@ public class MainMenu extends GameState {
     private Image background;
     private BitmapFont comicFont;
     private FreeTypeFontGenerator gen;
+    public int currentItem = 0;
 
     public MainMenu(GameStateManager gsm){
         super(gsm);
@@ -48,6 +50,7 @@ public class MainMenu extends GameState {
         atlas = new TextureAtlas("comic/skin/comic-ui.atlas");
         skin = new Skin(Gdx.files.internal("comic/skin/comic-ui.json"));
         CrazyPutting.cam.update();
+        Gdx.input.setInputProcessor(stage);
 
     }
 
@@ -59,8 +62,6 @@ public class MainMenu extends GameState {
 
     @Override
     public void draw() {
-        Gdx.input.setInputProcessor(stage);
-
         Table table = new Table();
         TextButton newGame = new TextButton("Play", skin);
         TextButton preferences = new TextButton("Settings", skin);
@@ -77,10 +78,32 @@ public class MainMenu extends GameState {
         stage.addActor(table);
         Gdx.gl.glClearColor(.1f, .12f, .16f, 1);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
-        stage.act();
+
+        for(int i = 0;i<3;i++){
+            if(currentItem == 0){
+                newGame.setColor(Color.LIME);
+            }
+            else{
+                newGame.setColor(Color.WHITE);
+            }
+            if(currentItem == 1){
+                preferences.setColor(Color.LIME);
+            }
+            else{
+                preferences.setColor(Color.WHITE);
+            }
+            if(currentItem == 2){
+                exit.setColor(Color.LIME);
+            }
+            else{
+                exit.setColor(Color.WHITE);
+            }
+
+        }
+
+        stage.act(Math.min(Gdx.graphics.getDeltaTime(), 1 / 30f));
         stage.draw();
         spriteBatch.begin();
-
         comicFont.draw(spriteBatch,title,225,540);
         spriteBatch.end();
 
@@ -89,7 +112,30 @@ public class MainMenu extends GameState {
 
     @Override
     public void handleInput() {
+        if(GameKeys.isPressed(GameKeys.UP)){
+            if(currentItem > 0)
+                currentItem--;
+        }
+        if(GameKeys.isPressed(GameKeys.DOWN)){
+            if(currentItem < 2)
+                currentItem++;
 
+        }
+        if(GameKeys.isPressed(GameKeys.ENTER)){
+            select();
+        }
+    }
+
+    public  void select(){
+        if(currentItem == 0){
+            gsm.setState(GameStateManager.PLAY);
+        }
+        if(currentItem == 1){
+            gsm.setState(GameStateManager.SETTINGS);
+        }
+        if(currentItem == 2){
+            Gdx.app.exit();
+        }
     }
 
     @Override
