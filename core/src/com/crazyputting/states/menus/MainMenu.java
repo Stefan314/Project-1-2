@@ -7,6 +7,7 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.*;
 import com.badlogic.gdx.utils.viewport.FitViewport;
@@ -17,7 +18,7 @@ import com.crazyputting.managers.GameStateManager;
 
 public class MainMenu extends GameState {
     private SpriteBatch spriteBatch;
-    private final String title = "CrazyPutting";
+    private final String title = "Crazy Putting";
     private Stage stage;
     private Skin skin;
     private TextureAtlas atlas;
@@ -25,6 +26,7 @@ public class MainMenu extends GameState {
     private Texture img;
     private Image background;
     private BitmapFont comicFont;
+    private FreeTypeFontGenerator gen;
 
     public MainMenu(GameStateManager gsm){
         super(gsm);
@@ -35,9 +37,13 @@ public class MainMenu extends GameState {
     spriteBatch = new SpriteBatch();
         viewport = new FitViewport(CrazyPutting.width, CrazyPutting.height,CrazyPutting.cam);
         viewport.apply();
+        gen = new FreeTypeFontGenerator(Gdx.files.internal("comic/raw/SF_Arch_Rival.ttf"));
         img = new Texture("mainMenu.jpg");
         background = new Image(img);
-        comicFont = new BitmapFont(Gdx.files.internal("comic/raw/font-export.fnt"));
+        FreeTypeFontGenerator.FreeTypeFontParameter parameter = new FreeTypeFontGenerator.FreeTypeFontParameter();
+        parameter.size = 55;
+        comicFont = gen.generateFont(parameter);
+        comicFont.setColor(Color.BLACK);
         stage = new Stage(viewport, spriteBatch);
         atlas = new TextureAtlas("comic/skin/comic-ui.atlas");
         skin = new Skin(Gdx.files.internal("comic/skin/comic-ui.json"));
@@ -74,8 +80,8 @@ public class MainMenu extends GameState {
         stage.act();
         stage.draw();
         spriteBatch.begin();
-        comicFont.getData().setScale(3,3);
-        comicFont.draw(spriteBatch,title,400,540);
+
+        comicFont.draw(spriteBatch,title,225,540);
         spriteBatch.end();
 
 
