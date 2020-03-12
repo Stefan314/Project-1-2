@@ -2,29 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffc0c29f-f188-461c-aea6-92c01c3edf12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Project-1-2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/crazyputting/engine/Engine.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/crazyputting/engine/Engine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/crazyputting/managers/GameInputProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/crazyputting/managers/GameInputProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/crazyputting/managers/GameKeys.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/crazyputting/managers/GameKeys.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/crazyputting/objects/Ball.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/crazyputting/objects/Ball.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/crazyputting/objects/Terrain.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/crazyputting/objects/Terrain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/crazyputting/states/menus/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/crazyputting/states/menus/MainMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/crazyputting/states/menus/PlayState.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/crazyputting/states/menus/PlayState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/crazyputting/states/menus/SettingsMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/crazyputting/states/menus/SettingsMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/crazyputting/states/menus/SettingsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/crazyputting/states/menus/SettingsMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/crazyputting/engine/solver/Euler.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/crazyputting/engine/solver/Euler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -128,7 +111,9 @@
       <workItem from="1583959597045" duration="252000" />
       <workItem from="1584012287916" duration="69000" />
       <workItem from="1584012400818" duration="117000" />
-      <workItem from="1584025250348" duration="1013000" />
+      <workItem from="1584025250348" duration="1115000" />
+      <workItem from="1584027190267" duration="64000" />
+      <workItem from="1584027839106" duration="824000" />
     </task>
     <task id="LOCAL-00001" summary="Finished Main Menu">
       <created>1583950780377</created>
@@ -151,7 +136,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583959617680</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Buttons now clickable.">
+      <created>1584026278406</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584026278406</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added Settings Menu.">
+      <created>1584026316232</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584026316232</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,49 +159,50 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finished Main Menu" />
     <MESSAGE value="Buttons now clickable." />
-    <option name="LAST_COMMIT_MESSAGE" value="Buttons now clickable." />
+    <MESSAGE value="Added Settings Menu." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Settings Menu." />
   </component>
   <component name="WindowStateProjectService">
     <state x="485" y="72" width="579" height="680" key="#DesktopLauncher" timestamp="1584025476973">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="485" y="72" width="579" height="680" key="#DesktopLauncher/0.0.1536.824@0.0.1536.824" timestamp="1584025476973" />
-    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1583939147432">
+    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1584027926621">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1583939147432" />
+    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1584027926621" />
     <state x="439" y="339" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1583938072988">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="439" y="339" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1583938072988" />
-    <state x="378" y="8" key="CommitChangelistDialog2" timestamp="1584026277206">
+    <state x="378" y="8" key="CommitChangelistDialog2" timestamp="1584028687208">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="378" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584026277206" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1584025854783">
+    <state x="378" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584028687208" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1584027253822">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584025854783" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1584025854783">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584027253822" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1584027253822">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584025854783" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1584025854782">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584027253822" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1584027253822">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584025854782" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1584025854783">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584027253822" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1584027253822">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584025854783" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1584026289483">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584027253822" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1584026328258">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584026289483" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1584025251938">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584026328258" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1584027869392">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584025251938" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584027869392" />
     <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583959643905">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
