@@ -8,22 +8,22 @@ public class PuttingCourse {
                          Vector3 flag, Vector3 start){
 
     }
-    public Function get_height(){
+    public void get_height(){
 
     }
-    public Vector3 get_flag_position(){
+    public void get_flag_position(){
 
     }
-    public Vector3 get_start_position(){
+    public void get_start_position(){
 
     }
-    public double get_friction_coefficient(){
+    public void get_friction_coefficient(){
 
     }
-    public double get_maximum_velocity(){
+    public void get_maximum_velocity(){
 
     }
-    public double get_hole_tolerance(){
+    public void get_hole_tolerance(){
 
     }
 }
